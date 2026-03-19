@@ -108,7 +108,7 @@ html {
 .language-speak article,
 .navbar-tabs-ul li,
 .two-words article {
-    font-family: fira code
+    font-family: emoji
 }
 
 ::-webkit-scrollbar {
@@ -615,7 +615,8 @@ body.light-mode .navbar-tab-indicator {
     font-weight: 600;
     width: fit-content;
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
+    margin-top: 6rem
 }
 
 #name,
@@ -718,8 +719,9 @@ body.light-mode .navbar-tab-indicator {
 
 #info-para,
 .about-info p {
+    font-family: cursive;
     font-weight: 400;
-    font-size: 2rem
+    font-size: 1.8rem
 }
 
 #work div {
@@ -1526,7 +1528,8 @@ footer {
 }
 
 .two-words article {
-    font-size: 3rem
+    padding-top: 25px;
+    font-size: 2rem;
 }
 
 .social-media-container {
@@ -1546,9 +1549,9 @@ footer {
     text-decoration: none;
     padding: 10px;
     border-radius: 50%;
-    border: 2px solid #e2dede;
+    /* border: 2px solid #e2dede; */
     position: relative;
-    box-shadow: 0 0 0 #8000ff inset;
+    box-shadow: 0px -2px 0 #8000ff inset;
     transition-duration: .3s
 }
 
